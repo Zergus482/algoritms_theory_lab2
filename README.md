@@ -30,18 +30,6 @@
 - dunder-методы: `__str__`, `__repr__`, `__eq__` у автомобилей,
   `__len__`, `__iter__`, `__repr__` у отчёта
 
-## Структура проекта
-algoritms_theory_lab2/
-├── vehicles.py # абстрактный класс Vehicle
-├── car_types.py # PassengerCar, Truck, Bus
-├── reports.py # TripReport — формирование и экспорт отчёта
-├── gui.py # графический интерфейс (Tkinter)
-├── main.py # консольная версия
-├── tests/
-│ └── test_all.py # тесты pytest
-├── requirements.txt
-└── README.md
-
 ## Требования
 
 - Python 3.10 или выше

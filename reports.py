@@ -1,7 +1,7 @@
 from typing import Tuple
 from docx import Document
 from openpyxl import Workbook
-from base import Vehicle            # ← было: from .base import Vehicle
+from vehicles import Vehicle           
 
 
 TripRow = Tuple[Vehicle, float, float, float, float, float]

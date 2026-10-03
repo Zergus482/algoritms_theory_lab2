@@ -9,7 +9,7 @@ class Vehicle(ABC):
     def __init__(self, name: str, base_consumption: float,
                  load_capacity: float, fuel_price: float | None = None):
         self.name = name
-        self.base_consumption = base_consumption   # л/100км порожним
+        self.base_consumption = base_consumption   # л/100км расход
         self.load_capacity = load_capacity         # тонн или мест
         self.fuel_price = fuel_price if fuel_price is not None else self.FUEL_PRICE
 
